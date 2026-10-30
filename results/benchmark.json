@@ -1,0 +1,60 @@
+{
+  "description": "Educational PyTorch CPU-only mechanics benchmark. Not Qwenputer performance.",
+  "operations_per_seed": 200,
+  "seeds": 3,
+  "records": [
+    {
+      "seed": 2026,
+      "memory_operations": 200,
+      "memory_s": 0.0041201660060323775,
+      "fixed_adder_cases": 200,
+      "adder_s": 0.13343666697619483,
+      "cpu_programs": 16,
+      "cpu_s": 0.04663137497846037,
+      "memory_errors": 0,
+      "adder_errors": 0,
+      "cpu_errors": 0
+    },
+    {
+      "seed": 2027,
+      "memory_operations": 200,
+      "memory_s": 0.0036289169802330434,
+      "fixed_adder_cases": 200,
+      "adder_s": 0.13327437499538064,
+      "cpu_programs": 16,
+      "cpu_s": 0.04587691597407684,
+      "memory_errors": 0,
+      "adder_errors": 0,
+      "cpu_errors": 0
+    },
+    {
+      "seed": 2028,
+      "memory_operations": 200,
+      "memory_s": 0.0035884169628843665,
+      "fixed_adder_cases": 200,
+      "adder_s": 0.13167083403095603,
+      "cpu_programs": 16,
+      "cpu_s": 0.045986957964487374,
+      "memory_errors": 0,
+      "adder_errors": 0,
+      "cpu_errors": 0
+    }
+  ],
+  "timing_s": {
+    "memory_s": {
+      "median": 0.0036289169802330434,
+      "min": 0.0035884169628843665,
+      "max": 0.0041201660060323775
+    },
+    "adder_s": {
+      "median": 0.13327437499538064,
+      "min": 0.13167083403095603,
+      "max": 0.13343666697619483
+    },
+    "cpu_s": {
+      "median": 0.045986957964487374,
+      "min": 0.04587691597407684,
+      "max": 0.04663137497846037
+    }
+  }
+}
